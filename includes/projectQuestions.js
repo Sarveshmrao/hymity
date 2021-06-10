@@ -36,7 +36,7 @@ module.exports = {
         name: "owner",
         description: chalk.white("Discord Bot Owner ID: "),
         warning: "Bot Owner ID is required.",
-        require: true
+        required: true
       }
     ];
 

@@ -15,6 +15,12 @@ const boxenOptions = {
 
 const msgBox = boxen(greeting, boxenOptions);
 console.log(msgBox);
-
-var create = "";
-create = createOption(selectCreate);
+if (process.argv[2] == "command") {
+  selectCreate(0);
+} else if (process.argv[2] == "event") {
+  selectCreate(1);
+} else if (process.argv[2] == "project" || process.argv[2] == "new") {
+  selectCreate(2);
+} else {
+  createOption(selectCreate);
+}

@@ -54,14 +54,17 @@ module.exports = {
     console.log("Config Created! \nCreating Direcotries!");
     fse.copySync(srcDir, destDir, { overwrite: true }, function (err) {
       if (err) {
-        console.error(err);
-      } else {
-        console.log(
-          "Project Created! \n Run `cd " +
-            name +
-            "` to create commands and events."
-        );
+        return console.error(err);
       }
+    });
+    console.log("Installing Modules....");
+    await exec(`cd ${name} && npm install`, () => {
+      console.log("Modules Installed.");
+      console.log(
+        "Project Created! \nRun `cd " +
+          name +
+          "` to create commands and events."
+      );
     });
   }
 };
