@@ -1,4 +1,10 @@
 <h1 align="center">Welcome to HYMITY 👋</h1>
+
+<div align="center">
+
+Simple general purpose Discord Bot Generator
+
+</div>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
@@ -18,12 +24,6 @@
 
 <img src="hymity.png" />
 
-<div align="center">
-
-Simple general purpose Discord Bot Generator
-
-</div>
-
 ### 🏠 [Homepage](https://github.com/sarveshmrao/hymity#readme)
 
 # Prerequisites
@@ -35,6 +35,12 @@ Simple general purpose Discord Bot Generator
 
 ```sh
 npm install -g hymity
+```
+
+or
+
+```sh
+yarn global add hymity
 ```
 
 # Usage
