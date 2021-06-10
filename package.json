@@ -1,0 +1,41 @@
+{
+  "name": "hooray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./index.js",
+  "homepage": "https://github.com/sarveshmrao/hooray#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarveshmrao/hooray.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarveshmrao/hooray/issues"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Generator",
+    "Hooray",
+    "hooray",
+    "Discord Bot",
+    "Bot Genearator",
+    "Discord.js"
+  ],
+  "author": "Sarvesh M Rao",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^2.4.2",
+    "prompt": "^1.1.0",
+    "prompts": "^2.4.1",
+    "readline": "^1.3.0"
+  },
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
+  }
+}
