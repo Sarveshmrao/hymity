@@ -47,20 +47,20 @@ yarn global add hymity
 
 ## Create New Project
 
-- To create a new project, type `hymity` in your terminal or command prompt and select `Create New Project`.
+- To create a new project, type `hymity new` in your terminal or command prompt.
 - Follow the steps and enter your bot token and prefix and bot owner ID.
 - Once done, run `cd <name of the project specified during creation>`
 - To run the bot, type `npm run dev`. This will run the bot with `nodemon` and will be restarting the bot for every change.
 
 ## Generating Commands
 
-- To generate a new command, type `hymity` in your terminal or command prompt and select `Create New Command`.
+- To generate a new command, type `hymity command` in your terminal or command prompt.
 - Follow the steps and enter the name and category of the command.
 - This will create the command in `commands/category/command_name.js`
 
 ## Generating Events
 
-- To generate a new event, type `hymity` in your terminal or command prompt and select `Create New Event`.
+- To generate a new event, type `hymity event` in your terminal or command prompt and select `Create New Event`.
 - Select the event which you want to create.
 - This event will get created in `events/event_name.js`
 
