@@ -15,8 +15,10 @@
     <img alt="Twitter: sarveshmrao" src="https://img.shields.io/twitter/follow/sarveshmrao.svg?style=social" />
   </a>
 </p>
-
-> Simple general purpose Discord Bot Generator
+<img src="hooray.png"/>
+<p align="center">
+Simple general purpose Discord Bot Generator
+</p>
 
 ### 🏠 [Homepage](https://github.com/sarveshmrao/hooray#readme)
 
