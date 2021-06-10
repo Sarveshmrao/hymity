@@ -10,7 +10,7 @@ const boxenOptions = {
   padding: 1,
   borderStyle: "round",
   borderColor: "white",
-  backgroundColor: "#1D69AB"
+  backgroundColor: "#545454"
 };
 
 const msgBox = boxen(greeting, boxenOptions);

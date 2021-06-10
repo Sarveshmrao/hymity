@@ -16,13 +16,13 @@
   </a>
 </p>
 
-![hooray-logo](hooray.png)
+<img src="hooray.png" />
 
-<p align="center">
+<div align="center">
 
-**Simple general purpose Discord Bot Generator**
+Simple general purpose Discord Bot Generator
 
-</p>
+</div>
 
 ### 🏠 [Homepage](https://github.com/sarveshmrao/hooray#readme)
 

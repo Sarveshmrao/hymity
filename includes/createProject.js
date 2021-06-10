@@ -3,7 +3,7 @@ const fs = require("fs");
 var path = require("path");
 const fse = require("fs-extra");
 module.exports = {
-  async createProject(name, prefix, token) {
+  async createProject(name, prefix, token, owner) {
     //writing package.json
     const packagejson = {
       name: name,
@@ -40,7 +40,8 @@ module.exports = {
       language: "javascript",
       manager: "npm",
       token: token,
-      prefix: prefix
+      prefix: prefix,
+      owner: owner
     };
     console.log("NPM Initialized \nCreating Config....");
     const configJsonString = JSON.stringify(configjson, null, 2);
