@@ -1,22 +1,22 @@
-<h1 align="center">Welcome to Hooray 👋</h1>
+<h1 align="center">Welcome to HYMITY 👋</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
-  <a href="https://github.com/sarveshmrao/hooray#readme" target="_blank">
+  <a href="https://github.com/sarveshmrao/hymity#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/sarveshmrao/hooray/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/sarveshmrao/hymity/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/sarveshmrao/hooray/blob/master/LICENSE" target="_blank">
-    <img alt="License: GPLv3.0 or Above" src="https://img.shields.io/github/license/sarveshmrao/Hooray" />
+  <a href="https://github.com/sarveshmrao/hymity/blob/master/LICENSE" target="_blank">
+    <img alt="License: GPLv3.0 or Above" src="https://img.shields.io/github/license/sarveshmrao/hymity" />
   </a>
   <a href="https://twitter.com/sarveshmrao" target="_blank">
     <img alt="Twitter: sarveshmrao" src="https://img.shields.io/twitter/follow/sarveshmrao.svg?style=social" />
   </a>
 </p>
 
-<img src="hooray.png" />
+<img src="hymity.png" />
 
 <div align="center">
 
@@ -24,7 +24,7 @@ Simple general purpose Discord Bot Generator
 
 </div>
 
-### 🏠 [Homepage](https://github.com/sarveshmrao/hooray#readme)
+### 🏠 [Homepage](https://github.com/sarveshmrao/hymity#readme)
 
 # Prerequisites
 
@@ -34,27 +34,27 @@ Simple general purpose Discord Bot Generator
 # Install
 
 ```sh
-npm install -g hooray
+npm install -g hymity
 ```
 
 # Usage
 
 ## Create New Project
 
-- To create a new project, type `hooray` in your terminal or command prompt and select `Create New Project`.
+- To create a new project, type `hymity` in your terminal or command prompt and select `Create New Project`.
 - Follow the steps and enter your bot token and prefix and bot owner ID.
 - Once done, run `cd <name of the project specified during creation>`
 - To run the bot, type `npm run dev`. This will run the bot with `nodemon` and will be restarting the bot for every change.
 
 ## Generating Commands
 
-- To generate a new command, type `hooray` in your terminal or command prompt and select `Create New Command`.
+- To generate a new command, type `hymity` in your terminal or command prompt and select `Create New Command`.
 - Follow the steps and enter the name and category of the command.
 - This will create the command in `commands/category/command_name.js`
 
 ## Generating Events
 
-- To generate a new event, type `hooray` in your terminal or command prompt and select `Create New Event`.
+- To generate a new event, type `hymity` in your terminal or command prompt and select `Create New Event`.
 - Select the event which you want to create.
 - This event will get created in `events/event_name.js`
 
@@ -69,7 +69,7 @@ npm install -g hooray
 
 # 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/sarveshmrao/hooray/issues). You can also take a look at the [contributing guide](https://github.com/sarveshmrao/hooray/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/sarveshmrao/hymity/issues). You can also take a look at the [contributing guide](https://github.com/sarveshmrao/hymity/blob/master/CONTRIBUTING.md).
 
 # Show your support
 
@@ -78,6 +78,6 @@ Give a ⭐️ if this project helped you!
 # 📝 License
 
 Copyright © 2021 [Sarvesh M Rao](https://github.com/sarveshmrao).<br />
-This project is [GNU General Public License v3.0](https://github.com/sarveshmrao/hooray/blob/master/LICENSE) licensed.
+This project is [GNU General Public License v3.0](https://github.com/sarveshmrao/hymity/blob/master/LICENSE) licensed.
 
 ---

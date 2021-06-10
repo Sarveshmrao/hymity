@@ -5,9 +5,9 @@ const fs = require("fs");
 
 module.exports = {
   commandQuestions() {
-    if (fs.existsSync("hooray.json")) {
+    if (fs.existsSync("hymity.json")) {
     } else {
-      return console.log("This is not a hooray project.");
+      return console.log("This is not a Hymity project.");
     }
     var name = "";
     var category = "";

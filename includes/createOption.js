@@ -5,7 +5,7 @@ module.exports = {
   async createOption(selectCreate) {
     var result = "";
     var project = false;
-    if (fs.existsSync("hooray.json")) {
+    if (fs.existsSync("hymity.json")) {
     } else {
       project = true;
     }

@@ -5,9 +5,9 @@ const fs = require("fs");
 
 module.exports = {
   async eventQuestions() {
-    if (fs.existsSync("hooray.json")) {
+    if (fs.existsSync("hymity.json")) {
     } else {
-      return console.log("This is not a hooray project.");
+      return console.log("This is not a Hymity project.");
     }
     const prompts = require("prompts");
     var result = "";

@@ -1,16 +1,16 @@
 {
-  "name": "hooray",
+  "name": "hymity",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": "./index.js",
-  "homepage": "https://github.com/sarveshmrao/hooray#readme",
+  "homepage": "https://github.com/sarveshmrao/hymity#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarveshmrao/hooray.git"
+    "url": "git+https://github.com/sarveshmrao/hymity.git"
   },
   "bugs": {
-    "url": "https://github.com/sarveshmrao/hooray/issues"
+    "url": "https://github.com/sarveshmrao/hymity/issues"
   },
   "scripts": {
     "start": "node index.js"
@@ -19,8 +19,7 @@
     "Discord",
     "Bot",
     "Generator",
-    "Hooray",
-    "hooray",
+    "hymity",
     "Discord Bot",
     "Bot Genearator",
     "Discord.js"

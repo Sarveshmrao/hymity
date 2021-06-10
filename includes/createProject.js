@@ -45,7 +45,7 @@ module.exports = {
     };
     console.log("NPM Initialized \nCreating Config....");
     const configJsonString = JSON.stringify(configjson, null, 2);
-    fs.writeFile(path.join(name, "hooray.json"), configJsonString, err => {
+    fs.writeFile(path.join(name, "hymity.json"), configJsonString, err => {
       if (err) console.log(err);
     });
 
