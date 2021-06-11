@@ -2,6 +2,7 @@ const { exec } = require("child_process");
 const fs = require("fs");
 var path = require("path");
 const fse = require("fs-extra");
+var pjson = require("../package.json");
 module.exports = {
   async createProject(name, prefix, token, owner) {
     //writing package.json
@@ -36,6 +37,7 @@ module.exports = {
       if (err) console.log(err);
     });
     const configjson = {
+      version: pjson.version,
       name: name,
       language: "javascript",
       manager: "npm",

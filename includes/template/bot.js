@@ -1,6 +1,6 @@
 const fs = require("fs");
 const Discord = require("discord.js");
-const { prefix, token } = require("./hooray.json");
+const { prefix, token } = require("./hymity.json");
 
 const client = new Discord.Client();
 

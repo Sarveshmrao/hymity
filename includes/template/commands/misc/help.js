@@ -1,4 +1,4 @@
-const { prefix } = require("./../../hooray.json");
+const { prefix } = require("./../../hymity.json");
 const Discord = require("discord.js");
 module.exports = {
   name: "help",

@@ -1,5 +1,5 @@
 const { Collection, MessageEmbed: Embed } = require("discord.js");
-const { prefix, owner } = require("../hooray.json");
+const { prefix, owner } = require("../hymity.json");
 
 const escapeRegex = string => {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
